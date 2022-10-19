@@ -46,6 +46,7 @@ int main()
     delete[] arr3;
 }
 
+// moving rows
 void moveRow(int** arr, int M, int N, int count)
 {
     
@@ -64,6 +65,7 @@ void moveRow(int** arr, int M, int N, int count)
     }
 }
 
+//moving colomns
 void moveColomn(int** arr, int M, int N, int count)
 {
     for (int j = 0; j < N; j++)
